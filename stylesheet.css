@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -15px;
+}
+
+#main_title h1 {
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-size: 3em;
+    padding-top: 100px;
+    background: rgba(255, 255, 255, .5);
+}
+
+header {
+    background: url("images/flatirons-boulder.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 569px;
+}
+
+nav {
+    padding-top: 20px;
+    width: 800px;
+    margin: auto;
+    display: block;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+#name_big_link {
+    font-size: 3em;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: gray;
+}
+
+#main_title {
+    margin-top: 150px;
+    text-align: center;
+    /* color: white; */
+    color: black;
+}
+
+#header_container, #my_work_container, #four_columns_container, #about_me_container, #contact_me_container, #footer_container {
+    width: 980px;
+    margin: auto;
+}
+
+#about_me {
+    height: 454px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+img {
+    border: 0;
+}
+
+main {
+    height: 698px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+
+#my_work_title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#my_work_container p {
+    color: gray;
+}
+
+#my_work_title, #about_me_title, #contact_me_title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.one_third, .one_fourth, .two_thirds {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.one_third {
+    width: 300px;
+}
+
+.one_fourth {
+    width: 220px;
+}
+
+#four_columns {
+    height: 454px;
+    text-align: center;
+}
+
+#four_columns_container {
+    margin-top: 150px;
+}
+
+#contact_images_box {
+    width: 227px;
+    margin: auto;
+}
+
+#contact_me {
+    height: 504px;
+    border: 1px solid gainsboro;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    margin-top: 0px;
+    text-align: center;
+}
